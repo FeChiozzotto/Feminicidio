@@ -1,16 +1,16 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import img from '../assets/vitimas.png';
+import img from '../assets/corPele.png';
 
-function Cards() {
+function CardPele() {
   
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img} alt="PC" />
       <Card.Body>
-        <Card.Title>Vitimas de 2015 a 2022</Card.Title>
+        <Card.Title>Cores de Pele que mais morrem</Card.Title>
         <Card.Text>
-        Dentre os anos de 2015 a 2022, o ano em que mais ocorreram casos de feminicidios foram 2022 e 2019.
+        A primeira pele que mais morre por feminicidio é a branca e a segunda é a preta.
         </Card.Text>
         <Button variant="primary">Saiba mais</Button>
       </Card.Body>
@@ -18,4 +18,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default CardPele;

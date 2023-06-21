@@ -4,6 +4,10 @@ import Cabecalho from "../components/Cabecalho";
 import Carrossel from "../components/Carrossel";
 import "../App.css"
 import NavRodape from "../components/NavRodape";
+import CardPele from "../components/CardPele";
+import CardEstados from "../components/CardEstados";
+import CardMes from "../components/CardMes";
+import CardGenero from "../components/CardGenero";
 
 function Home() {
   return (
@@ -15,13 +19,14 @@ function Home() {
           <Carrossel />
         </div>
         <div className="home">
-          <h1>O que é Feminicídio?</h1>
+          <h1>Casos Feminicídio</h1>
         </div>
         <div className="card-group">
           <Cards />
-          <Cards />
-          <Cards />
-          <Cards />
+          <CardPele />
+          <CardEstados />
+          <CardMes />
+          <CardGenero />
         </div>
         <div>
           <NavRodape/>

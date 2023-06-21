@@ -1,12 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import img from '../assets/feminicidio.jpg'
 
 function Cabecalho() {
   return (
     <>
       <Navbar bg="white" variant="white">
         <Container>
-          <img className='img-feminicidio' src="https://cnttl.org.br/files/imagem/vaw-logo-port-not12684-not4377.jpg" alt="" />
+          <img className='img-feminicidio' src={img} alt="" />
             
         </Container>
         

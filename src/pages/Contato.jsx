@@ -11,8 +11,6 @@ function Contato() {
         <div className="sobre">
         <h1>Não fique Calada, Denuncie!</h1>
         </div>
-        <h2>Nosso email de suporte</h2>
-        <h3>denuncieaqui@gmail.com</h3>
         <h2>Telefone</h2>
         <h3>Ligue 180</h3>
     </div>

@@ -1,16 +1,16 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import img from '../assets/vitimas.png';
+import img from '../assets/Estados.png';
 
-function Cards() {
+function CardEstados() {
   
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img} alt="PC" />
       <Card.Body>
-        <Card.Title>Vitimas de 2015 a 2022</Card.Title>
+        <Card.Title>Estados que mais ocorrem</Card.Title>
         <Card.Text>
-        Dentre os anos de 2015 a 2022, o ano em que mais ocorreram casos de feminicidios foram 2022 e 2019.
+       Dentre todas as cidades de São Paulo as que mais ocorrem feminicidios são: São Paulo, Osasco e Guarulhos.
         </Card.Text>
         <Button variant="primary">Saiba mais</Button>
       </Card.Body>
@@ -18,4 +18,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default CardEstados;
