@@ -1,0 +1,20 @@
+{
+    "products": [
+    {
+    "id": 1,
+    "name": "Sofa",
+    "price": 1000
+    },
+    {
+    "id": 2,
+    "name": "Cadeira",
+    "price": 90
+    },
+    {
+    "id": 3,
+    "name": "Mesa",
+    "price": 500
+    }
+    ]
+    }
+   
